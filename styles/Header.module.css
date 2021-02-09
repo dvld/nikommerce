@@ -1,0 +1,44 @@
+.navLinks {
+  margin: 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.navLinks:hover {
+  transform: translateX(1px);
+  color: green;
+  transition: all 0.1s ease-in;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  padding: 30px;
+  text-align: center;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.disclaimer {
+  font-size: 0.6rem;
+  text-align: center;
+  color: #777;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: green;
+}

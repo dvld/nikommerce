@@ -1,0 +1,97 @@
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+.signUpForm {
+  width: 75%;
+}
+
+.submitButton {
+  min-width: 165px;
+  width: 100%;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: green;
+  color: white;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+}
+
+.submitButton:hover {
+  transition: all 0.5s ease-out;
+  transform: scale(1.02);
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+}
+
+.group .formInput {
+  background: none;
+  background-color: #fff;
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid grey;
+  margin: 25px 0;
+}
+
+.group .formInput:focus {
+  outline: none;
+}
+
+.group .formInput:focus ~ .formInputLabel {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+}
+
+.formInputLabel {
+  color: grey;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+}
+
+.formInputLabel .shrink {
+  top: -14px;
+  font-size: 12px;
+  color: black;
+}
